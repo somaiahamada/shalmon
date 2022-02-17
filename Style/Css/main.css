@@ -1,0 +1,276 @@
+:root {
+    --mainColor :#0B5A6E;
+    --secondColor: #707070;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--mainColor);
+    height: 18vh;
+}
+header nav .left {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+}
+header nav .left .lines {
+    color:#fff;
+    font-size:2vh;
+}
+header nav .left .wordLogo{
+color:#F0F0F0;
+font-family:Pristina;
+font-size: 6vh;
+margin-right: 5vh;
+}
+header nav .right {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+}
+header nav .right .search {
+    background-color: #fff;
+    width: 60vh;
+    height: 5vh;
+    margin-left: 6vh;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav .right .search .wordSearch {
+    font-size: 3vh;
+    color: rgb(139 139 139 / 60%);
+    margin-left: 20px;
+}
+header nav .right .search .iconSearch {
+    color:var(--secondColor);
+    font-size: 2vh;
+    margin-right: 20px;
+}
+header nav .right .icons  {
+    display: flex;
+    align-items: center;
+}
+header nav .right .icons ul {
+    display: flex;
+    align-items:center;
+    margin:2vh 0;
+}
+header nav .right .icons ul li {
+    list-style: none;
+    margin-left: 5vh;
+}
+header nav .right .icons ul li.icon {
+    color: #F0F0F0;
+    font-size: 2vh;
+}
+header .list {
+    height: 7vh;
+    color:var(--secondColor);
+    font-size: 3vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header .list .cate {
+    cursor: pointer;
+}
+header .list .leftList ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 2vh 0;
+    justify-content: space-between;
+}
+header .list .leftList ul li {
+    cursor: pointer;
+    margin-left: 5vh;
+}
+header .list .leftList ul li.active {
+    color: var(--mainColor);
+    font-weight: bold;
+}
+header .pic {
+    position: relative;
+    height: 75vh;
+    }
+    header .pic img {
+        height: 100%;
+        width: 100%;
+    }
+header .pic .opacity{
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    background-color: #122437;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+header .join
+{
+    position: absolute;
+    left: 20vh;
+    top: 0vh;
+    padding: 4vh 0;
+    width: 30%;
+    font-weight: bold;
+    color: #fffcfc;
+    font-size: 15vh;
+}
+header .button {
+    position: absolute;
+    left: 20vh;
+    top: 60vh;
+    padding: 1.5vh 0;
+    width: 30vh;
+    /* font-weight: bold; */
+    color:#fffcfc;
+    background-color: transparent;
+    border: 0.6vh solid var(--mainColor);
+    font-size: 5vh;
+}
+header .button:hover {
+    background-color: var(--mainColor);
+}
+section {
+    padding: 100px auto;
+    text-align: center;
+}
+section .textTrends {
+    margin:40px;
+    color: var(--secondColor);
+}
+section .picsTrends {
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+section .picsTrends .picTrends {
+    width: 22%;
+}
+section .picsTrends .picTrends img {
+    width: 100%;
+}
+section button {
+    margin: 60px;
+    background-color: var(--mainColor);
+    padding: 1.5vh 3vh;
+    width: 30vh;
+    color:#fffcfc;
+    border: 0.6vh solid transparent;
+    font-size: 5vh;
+}
+section button:hover {
+    background-color: transparent;
+    color: var(--mainColor);
+    font-weight: bold;
+    border: 0.6vh solid var(--mainColor);
+}
+section .pic {
+    position: relative;
+    height: 75vh;
+    }
+    section .pic img {
+        height: 100%;
+        width: 100%;
+    }
+    section .pic .opacity{
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    background-color: #122437;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+section .free
+{
+    position: absolute;
+    left: 15vh;
+    top: 20vh;
+    padding: 4vh 0;
+    font-weight: bold;
+    color: #fffcfc;
+    font-size: 15vh;
+}
+section .textDiscount {
+    margin:40px;
+    color: var(--secondColor);
+}
+section .picsDiscount {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+section .picsDiscount .picDiscount {
+    width: 22%;
+}
+section .picsDiscount .picDiscount img {
+    width: 100%;
+}
+section button {
+    margin: 60px;
+    background-color: var(--mainColor);
+    padding: 1.5vh 3vh;
+    width: 30vh;
+    color:#fffcfc;
+    border: 0.6vh solid transparent;
+    font-size: 5vh;
+}
+section button:hover {
+    background-color: transparent;
+    color: var(--mainColor);
+    font-weight: bold;
+    border: 0.6vh solid var(--mainColor);
+}
+span {
+    font-weight: bold;
+    color: var(--mainColor);
+}
+section .free span {
+    font-weight: bold;
+    color: var(--mainColor);
+    text-shadow: 4px 4px white;
+}
+footer {
+    display:flex;
+    padding: 80px;
+    background-color: #202020;
+    color: #d7d4d4;
+}
+footer .left {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+footer .left>div ,
+footer .right>div {
+    margin-bottom: 40px;
+}
+footer .left>div>h3 ,
+footer .left>div>div ,
+footer .right>div>h3 {
+    margin-left: 20px;
+    font-weight: normal;
+
+}
+footer .left .cardd .imgsCard ,
+footer .left .imgsSocial {
+    display: flex;
+}
+
+footer .left .cardd .imgsCard img ,
+footer .left .imgsSocial img{
+margin:8px;
+width: 60px;
+}
